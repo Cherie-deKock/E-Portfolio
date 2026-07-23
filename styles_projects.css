@@ -2,8 +2,20 @@
     margin-top: 40px;
 }
 
-.video-content {
+.video-content, .embedded-content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.button {
     width: 100%;
     text-align: center;
-    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.view-code {
+    width: 200px;
+    text-align: center;
 }
